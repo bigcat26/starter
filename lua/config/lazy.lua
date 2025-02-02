@@ -175,6 +175,12 @@ require("lazy").setup({
         }
       end,
     },
+    {
+      "fei6409/log-highlight.nvim",
+      config = function()
+        require("log-highlight").setup({})
+      end,
+    },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
